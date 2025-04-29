@@ -1,0 +1,25 @@
+{
+  "name": "typescript-web-crawler",
+  "version": "1.0.0",
+  "description": "a crawler in Typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trnq-eu/typescript-web-crawler.git"
+  },
+  "author": "trnq-eu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trnq-eu/typescript-web-crawler/issues"
+  },
+  "homepage": "https://github.com/trnq-eu/typescript-web-crawler#readme",
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  }
+}
