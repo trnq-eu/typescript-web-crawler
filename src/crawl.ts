@@ -5,6 +5,17 @@ export function normalizeURL(urlString: string): string {
 
         // extract hostname and pathname
         let normalizedURL = `${url.hostname}${url.pathname}`;
+        
+        // Remove the trailing slash if it exists.
+        if (normalizedURL.endsWith("/")) {
+            normalizedURL = normalizedURL.slice(0, -1);
+        }
+
+        // Handle empty path
+        if (normalizedURL === url.hostname) {
+            normalizedURL = url.hostname;
+        }
+
 
         return normalizedURL;
 
@@ -17,3 +28,8 @@ export function normalizeURL(urlString: string): string {
     }
 }
 
+
+export function getURLsFromHTML(html: string, baseURL: string): string[] {
+    return [];
+
+}
