@@ -18,9 +18,13 @@
   },
   "homepage": "https://github.com/trnq-eu/typescript-web-crawler#readme",
   "devDependencies": {
+    "@types/jsdom": "^21.1.7",
     "@types/node": "^22.15.3",
     "tsx": "^4.19.3",
     "typescript": "^5.8.3",
     "vitest": "^3.1.2"
+  },
+  "dependencies": {
+    "jsdom": "^26.1.0"
   }
 }
